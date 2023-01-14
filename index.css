@@ -17,3 +17,7 @@ button:disabled {
 #tictactoe {
     font-size: 0; /*make game board a grid*/
 }
+
+.center {
+    text-align: center;
+  }

@@ -8,26 +8,30 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <div id="tictactoe">
-        <button type="button" class="game" id="btn1" onclick="clickSquare(this.id)">&nbsp</button>
-        <button type="button" class="game" id="btn2" onclick="clickSquare(this.id)">&nbsp</button>
-        <button type="button" class="game" id="btn3" onclick="clickSquare(this.id)">&nbsp</button>
+    <div class="center">
+        <div id="tictactoe">
+            <button type="button" class="game" id="btn1" onclick="clickSquare(this.id)">&nbsp</button>
+            <button type="button" class="game" id="btn2" onclick="clickSquare(this.id)">&nbsp</button>
+            <button type="button" class="game" id="btn3" onclick="clickSquare(this.id)">&nbsp</button>
+            <br>
+            <button type="button" class="game" id="btn4" onclick="clickSquare(this.id)">&nbsp</button>
+            <button type="button" class="game" id="btn5" onclick="clickSquare(this.id)">&nbsp</button>
+            <button type="button" class="game" id="btn6" onclick="clickSquare(this.id)">&nbsp</button>
+            <br>
+            <button type="button" class="game" id="btn7" onclick="clickSquare(this.id)">&nbsp</button>
+            <button type="button" class="game" id="btn8" onclick="clickSquare(this.id)">&nbsp</button>
+            <button type="button" class="game" id="btn9" onclick="clickSquare(this.id)">&nbsp</button>
+            <br>
+            <br>
+        </div>
         <br>
-        <button type="button" class="game" id="btn4" onclick="clickSquare(this.id)">&nbsp</button>
-        <button type="button" class="game" id="btn5" onclick="clickSquare(this.id)">&nbsp</button>
-        <button type="button" class="game" id="btn6" onclick="clickSquare(this.id)">&nbsp</button>
-        <br>
-        <button type="button" class="game" id="btn7" onclick="clickSquare(this.id)">&nbsp</button>
-        <button type="button" class="game" id="btn8" onclick="clickSquare(this.id)">&nbsp</button>
-        <button type="button" class="game" id="btn9" onclick="clickSquare(this.id)">&nbsp</button>
-        <br>
-        <br>
+        <div>
+            <button type="reset" id="reset" onclick="reset()">Reset</button>
+            <br>
+            <br>
+            <p id="winner">It is X's turn</p>
+            <script src="index.js"></script>
+        </div>
     </div>
-    <br>
-    <button type="reset" id="reset" onclick="reset()">Reset</button>
-    <br>
-    <br>
-    <p id="winner">It is X's turn</p>
-    <script src="index.js"></script>
 </body>
 </html>
