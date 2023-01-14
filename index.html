@@ -5,26 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    
-    <button type="button" id="btn1" onclick="click1(this.id, 1)">.</button>
-    <button type="button" id="btn2" onclick="click1(this.id, 2)">.</button>
-    <button type="button" id="btn3" onclick="click1(this.id, 3)">.</button>
+    <div id="tictactoe">
+        <button type="button" class="game" id="btn1" onclick="clickSquare(this.id, 1)">.</button>
+        <button type="button" class="game" id="btn2" onclick="clickSquare(this.id, 2)">.</button>
+        <button type="button" class="game" id="btn3" onclick="clickSquare(this.id, 3)">.</button>
+        <br>
+        <button type="button" class="game" id="btn4" onclick="clickSquare(this.id, 4)">.</button>
+        <button type="button" class="game" id="btn5" onclick="clickSquare(this.id, 5)">.</button>
+        <button type="button" class="game" id="btn6" onclick="clickSquare(this.id, 6)">.</button>
+        <br>
+        <button type="button" class="game" id="btn7" onclick="clickSquare(this.id, 7)">.</button>
+        <button type="button" class="game" id="btn8" onclick="clickSquare(this.id, 8)">.</button>
+        <button type="button" class="game" id="btn9" onclick="clickSquare(this.id, 9)">.</button>
+        <br>
+        <br>
+    </div>
     <br>
-    <button type="button" id="btn4" onclick="click1(this.id)">.</button>
-    <button type="button" id="btn5" onclick="click1(this.id)">.</button>
-    <button type="button" id="btn6" onclick="click1(this.id)">.</button>
-    <br>
-    <button type="button" id="btn7" onclick="click1(this.id)">.</button>
-    <button type="button" id="btn8" onclick="click1(this.id)">.</button>
-    <button type="button" id="btn9" onclick="click1(this.id)">.</button>
+    <button type="reset" id="reset" onclick="reset()">Reset</button>
     <br>
     <br>
-    <button type="button" id="btnX" onclick="clickX()">X</button>
-    <button type="button" id="btnO" onclick="clickO()">O</button>
-    <button type="reset" id="reset">Reset</button>
-
+    <p id="winner">It is X's turn</p>
     <script src="index.js"></script>
 </body>
 </html>
